@@ -11,6 +11,6 @@ export default function json2html(data) {
                     <td>${person.Gender || ''}</td>
                 </tr>`;
     });
-    html += </tbody></table>;
+    html += `</tbody></table>`;
     return html; 
 }
